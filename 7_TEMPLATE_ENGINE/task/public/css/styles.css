@@ -1,0 +1,30 @@
+body {
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  padding: 12px;
+  border: 1px solid #a09d9d;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.card li {
+  list-style: none;
+}
+
+.card h4 {
+  font-size: 18px;
+}
+
+.card p {
+  font-weight: 600;
+}
+
+.card span {
+  font-weight: 400;
+  color: #7c7c7c;
+}
