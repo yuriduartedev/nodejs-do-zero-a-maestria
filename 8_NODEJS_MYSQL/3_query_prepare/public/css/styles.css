@@ -1,0 +1,88 @@
+* {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form,
+.button-container,
+.books-container {
+  width: 450px;
+  margin: 0 auto;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5em;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.form-control input {
+  padding: 5px;
+}
+
+.button-container {
+  margin-top: 36px;
+}
+
+.books-container div {
+  border-bottom: 1px solid #ccc;
+  padding: 6px;
+  margin: 6px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.button {
+  padding: 10px 16px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  border-radius: 6px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+input {
+  height: 40px;
+  padding: 36px;
+  border-radius: 6px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+}
+
+.navbar {
+  border-bottom: 1px solid #ccc;
+  padding: 1em 0;
+  margin-bottom: 1em;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar li {
+  margin-left: 1em;
+}
+
+.actions {
+  display: flex;
+  gap: 1em;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.actions input {
+  margin-top: 0;
+}

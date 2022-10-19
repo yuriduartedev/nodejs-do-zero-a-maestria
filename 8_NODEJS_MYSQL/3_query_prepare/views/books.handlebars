@@ -1,0 +1,21 @@
+<h1>Todos os livros</h1>
+
+<div class="books-container">
+  {{#each books}}
+    <div>
+      #{{this.id}}
+      -
+      <span class="bold">{{this.title}}</span>
+      -
+      {{this.pagequantity}}
+      páginas -
+      <a href="/books/{{id}}">Visualizar</a>
+      <a href="/books/edit/{{id}}">Editar</a>
+    </div>
+  {{/each}}
+
+</div>
+
+<div class="button-container">
+  <a class="button" href="/">Novo livro</a>
+</div>
