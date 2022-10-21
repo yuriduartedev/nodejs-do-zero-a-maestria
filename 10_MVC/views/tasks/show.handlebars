@@ -1,0 +1,17 @@
+<h1>Tarefa: {{task.title}}</h1>
+
+<ul class="task-list">
+  <li>
+    {{#if task.done}}
+      <a href="/" class="title done">{{task.title}}</a>
+      <i class="bi bi-check2-all"></i>
+    {{else}}
+      <a href="/" class="title">{{task.title}}</a>
+      <i class="bi bi-check2"></i>
+    {{/if}}
+  </li>
+
+  <div class="task-description">
+    <p>{{task.description}}</p>
+  </div>
+</ul>
